@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    coler: #333;
+    margin: 0;
+}
+
+:root {
+    --navbackground: rgb(252, 237, 30);
+    --navfontcolor: rgb(226, 142, 256);
+}
+
+header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    color: var(--navbackground)
+}
+
+nav a {
+    margin-right: 15px;
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a :hover{
+
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    margin-top: 0%;
+    justify-content: space-around;
+}
+
+section div {
+    width: 77%; 
+}
+
+article {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: flex;
+    flex-grow: wrap;
+
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+
+.item {
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: gold 1px solid;
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    border-radius: 30%;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
